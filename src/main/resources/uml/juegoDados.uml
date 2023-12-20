@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:Codegen="http://www.eclipse.org/papyrus/Codegen/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_xl5HgJ8zEe6a8eZwrQ2Tww" name="juegoDados">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_xo2U4J8zEe6a8eZwrQ2Tww">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_0dXD4J8zEe6a8eZwrQ2Tww" name="JuegoDados">
+      <packagedElement xmi:type="uml:Package" xmi:id="_0eivoJ8zEe6a8eZwrQ2Tww" name="org">
+        <packagedElement xmi:type="uml:Package" xmi:id="_0ej9wJ8zEe6a8eZwrQ2Tww" name="iesalandalus">
+          <packagedElement xmi:type="uml:Package" xmi:id="_0elL4J8zEe6a8eZwrQ2Tww" name="programacion">
+            <packagedElement xmi:type="uml:Package" xmi:id="_0ely8J8zEe6a8eZwrQ2Tww" name="juegodados">
+              <packagedElement xmi:type="uml:Package" xmi:id="_0enBEJ8zEe6a8eZwrQ2Tww" name="modelo"/>
+              <packagedElement xmi:type="uml:Package" xmi:id="_IjtuIJ80Ee6a8eZwrQ2Tww" name="vista"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_0e8YQJ8zEe6a8eZwrQ2Tww" name="importedTypes">
+      <packagedElement xmi:type="uml:Package" xmi:id="_0e9mYJ8zEe6a8eZwrQ2Tww" name="primitivetype">
+        <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_0e-0gJ8zEe6a8eZwrQ2Tww" name="int"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Ij4tQJ80Ee6a8eZwrQ2Tww" name="org">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Ij4tQZ80Ee6a8eZwrQ2Tww" name="iesalandalus">
+          <packagedElement xmi:type="uml:Package" xmi:id="_Ij8-sJ80Ee6a8eZwrQ2Tww" name="programacion">
+            <packagedElement xmi:type="uml:Package" xmi:id="_Ij8-sZ80Ee6a8eZwrQ2Tww" name="juegodados">
+              <packagedElement xmi:type="uml:Package" xmi:id="_Ij8-sp80Ee6a8eZwrQ2Tww" name="modelo">
+                <packagedElement xmi:type="uml:Class" xmi:id="_Ij9lwJ80Ee6a8eZwrQ2Tww" name="JuegoDados"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_0fE7IJ8zEe6a8eZwrQ2Tww" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_0fFiMJ8zEe6a8eZwrQ2Tww" name="java">
+        <packagedElement xmi:type="uml:Package" xmi:id="_0fFiMZ8zEe6a8eZwrQ2Tww" name="util">
+          <packagedElement xmi:type="uml:Class" xmi:id="_0fGwUJ8zEe6a8eZwrQ2Tww" name="Random"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_4Uz2kJ8zEe6a8eZwrQ2Tww" name="lang">
+          <packagedElement xmi:type="uml:Class" xmi:id="_4Uz2kZ8zEe6a8eZwrQ2Tww" name="String"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_QkXK0J80Ee6a8eZwrQ2Tww" name="org.iesalandalus.programacion.juegodados">
+      <packagedElement xmi:type="uml:Package" xmi:id="_D21vUJ80Ee6a8eZwrQ2Tww" name="modelo">
+        <packagedElement xmi:type="uml:Class" xmi:id="_0eqEYJ8zEe6a8eZwrQ2Tww" name="Dado" visibility="public">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_0e_bkJ8zEe6a8eZwrQ2Tww" name="NUM_CARAS" visibility="private" isLeaf="true" isStatic="true" type="_0e-0gJ8zEe6a8eZwrQ2Tww" isUnique="false">
+            <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_0fApsJ8zEe6a8eZwrQ2Tww" name="defaultValue">
+              <language>JAVA</language>
+              <body>6</body>
+            </defaultValue>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_0jA_8J8zEe6a8eZwrQ2Tww" name="GENERADOR" visibility="private" isLeaf="true" isStatic="true" type="_0fGwUJ8zEe6a8eZwrQ2Tww" isUnique="false">
+            <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_0jEqUJ8zEe6a8eZwrQ2Tww" name="defaultValue">
+              <language>JAVA</language>
+              <body>new Random()</body>
+            </defaultValue>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_0jReoJ8zEe6a8eZwrQ2Tww" name="Dado" specification="_0jHGkJ8zEe6a8eZwrQ2Tww">
+            <language>JAVA</language>
+            <body>
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_0jW-MJ8zEe6a8eZwrQ2Tww" name="lanzar" specification="_0jTT0J8zEe6a8eZwrQ2Tww">
+            <language>JAVA</language>
+            <body>
+    return GENERADOR.nextInt(NUM_CARAS) + 1;
+</body>
+          </ownedBehavior>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_0jHGkJ8zEe6a8eZwrQ2Tww" name="Dado" visibility="private" method="_0jReoJ8zEe6a8eZwrQ2Tww"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_0jTT0J8zEe6a8eZwrQ2Tww" name="lanzar" visibility="public" isStatic="true" method="_0jW-MJ8zEe6a8eZwrQ2Tww">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_0jUh8J8zEe6a8eZwrQ2Tww" type="_0e-0gJ8zEe6a8eZwrQ2Tww" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_4UftgJ8zEe6a8eZwrQ2Tww" name="JuegoDados" visibility="public">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_4Ug7oJ8zEe6a8eZwrQ2Tww" name="MIN_JUGADORES" visibility="private" isLeaf="true" isStatic="true" type="_0e-0gJ8zEe6a8eZwrQ2Tww" isUnique="false">
+            <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_4UhisJ8zEe6a8eZwrQ2Tww" name="defaultValue">
+              <language>JAVA</language>
+              <body>2</body>
+            </defaultValue>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_4UhisZ8zEe6a8eZwrQ2Tww" name="MAX_JUGADORES" visibility="private" isLeaf="true" isStatic="true" type="_0e-0gJ8zEe6a8eZwrQ2Tww" isUnique="false">
+            <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_4UiJwJ8zEe6a8eZwrQ2Tww" name="defaultValue">
+              <language>JAVA</language>
+              <body>10</body>
+            </defaultValue>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_4Uo3cJ8zEe6a8eZwrQ2Tww" name="jugadores" visibility="private" isLeaf="true" type="_4Uiw0J8zEe6a8eZwrQ2Tww" isUnique="false" aggregation="composite" association="_vPjs0J80Ee6a8eZwrQ2Tww">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4UpegJ8zEe6a8eZwrQ2Tww"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4UqFkJ8zEe6a8eZwrQ2Tww" value="*"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4UwzQJ8zEe6a8eZwrQ2Tww" name="JuegoDados" specification="_4UqsoJ8zEe6a8eZwrQ2Tww">
+            <language>JAVA</language>
+            <body>
+    comprobarNumeroJugadores(numeroJugadores);
+    jugadores = new Jugador[numeroJugadores];
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4UzPgJ8zEe6a8eZwrQ2Tww" name="comprobarNumeroJugadores" specification="_4UxaUJ8zEe6a8eZwrQ2Tww">
+            <language>JAVA</language>
+            <body>
+    if (numeroJugadores &lt; MIN_JUGADORES || numeroJugadores > MAX_JUGADORES) {
+        throw new IllegalArgumentException(&quot;El número de jugadores no es válido (&quot; + MIN_JUGADORES + &quot;-&quot; + MAX_JUGADORES + &quot;).&quot;);
+    }
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4U7yYJ8zEe6a8eZwrQ2Tww" name="setJugador" specification="_4U5WIJ8zEe6a8eZwrQ2Tww">
+            <language>JAVA</language>
+            <body>
+    comprobarNumeroJugador(numeroJugador);
+    jugadores[numeroJugador] = new Jugador(nombre);
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4U-OoJ8zEe6a8eZwrQ2Tww" name="comprobarNumeroJugador" specification="_4U9AgJ8zEe6a8eZwrQ2Tww">
+            <language>JAVA</language>
+            <body>
+    if (numeroJugador &lt; 0 || numeroJugador >= jugadores.length) {
+        throw new IllegalArgumentException(&quot;El número del jugador no es válido.&quot;);
+    }
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4U-1sJ8zEe6a8eZwrQ2Tww" name="jugar" specification="_4U-OoZ8zEe6a8eZwrQ2Tww">
+            <language>JAVA</language>
+            <body>
+    comprobarJugadores();
+    for (Jugador jugador : jugadores) {
+        jugador.jugar();
+    }
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4VAD0J8zEe6a8eZwrQ2Tww" name="comprobarJugadores" specification="_4U_cwJ8zEe6a8eZwrQ2Tww">
+            <language>JAVA</language>
+            <body>
+    for (Jugador jugador : jugadores) {
+        Objects.requireNonNull(jugador, &quot;Hay un jugador que no se ha creado.&quot;);
+    }
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4VBR8J8zEe6a8eZwrQ2Tww" name="getPuntuacionGanadora" specification="_4VAD0Z8zEe6a8eZwrQ2Tww">
+            <language>JAVA</language>
+            <body>
+    int puntuacionMaxima = 0;
+    for (Jugador jugador : jugadores) {
+        int puntuacionJugador = jugador.getPuntuacionTotal();
+        if (puntuacionJugador > puntuacionMaxima) {
+            puntuacionMaxima = puntuacionJugador;
+        }
+    }
+    return puntuacionMaxima;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4VEVQJ8zEe6a8eZwrQ2Tww" name="getGanadores" specification="_4VB5AJ8zEe6a8eZwrQ2Tww">
+            <language>JAVA</language>
+            <body>
+    Jugador[] ganadores = new Jugador[jugadores.length];
+    int puntuacionGanadora = getPuntuacionGanadora();
+    int indiceGanadores = 0;
+    for (Jugador jugador : jugadores) {
+        if (jugador.getPuntuacionTotal() == puntuacionGanadora) {
+            ganadores[indiceGanadores++] = jugador;
+        }
+    }
+    return ganadores;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4VGxgJ8zEe6a8eZwrQ2Tww" name="toString" specification="_4VE8UJ8zEe6a8eZwrQ2Tww">
+            <language>JAVA</language>
+            <body>
+    StringBuilder jugadoresCadena = new StringBuilder();
+    for (Jugador jugador : jugadores) {
+        jugadoresCadena.append(String.format(&quot;%s%n&quot;, jugador));
+    }
+    return jugadoresCadena.toString();
+</body>
+          </ownedBehavior>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_4UqsoJ8zEe6a8eZwrQ2Tww" name="JuegoDados" visibility="public" method="_4UwzQJ8zEe6a8eZwrQ2Tww">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_4UwMMJ8zEe6a8eZwrQ2Tww" name="numeroJugadores" type="_0e-0gJ8zEe6a8eZwrQ2Tww"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_4UxaUJ8zEe6a8eZwrQ2Tww" name="comprobarNumeroJugadores" visibility="private" method="_4UzPgJ8zEe6a8eZwrQ2Tww">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_4UyBYJ8zEe6a8eZwrQ2Tww" name="numeroJugadores" type="_0e-0gJ8zEe6a8eZwrQ2Tww"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_4U5WIJ8zEe6a8eZwrQ2Tww" name="setJugador" visibility="public" method="_4U7yYJ8zEe6a8eZwrQ2Tww">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_4U59MJ8zEe6a8eZwrQ2Tww" name="numeroJugador" type="_0e-0gJ8zEe6a8eZwrQ2Tww"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_4U7LUJ8zEe6a8eZwrQ2Tww" name="nombre" type="_4Uz2kZ8zEe6a8eZwrQ2Tww"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_4U9AgJ8zEe6a8eZwrQ2Tww" name="comprobarNumeroJugador" visibility="private" method="_4U-OoJ8zEe6a8eZwrQ2Tww">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_4U9AgZ8zEe6a8eZwrQ2Tww" name="numeroJugador" type="_0e-0gJ8zEe6a8eZwrQ2Tww"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_4U-OoZ8zEe6a8eZwrQ2Tww" name="jugar" visibility="public" method="_4U-1sJ8zEe6a8eZwrQ2Tww"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_4U_cwJ8zEe6a8eZwrQ2Tww" name="comprobarJugadores" visibility="private" method="_4VAD0J8zEe6a8eZwrQ2Tww"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_4VAD0Z8zEe6a8eZwrQ2Tww" name="getPuntuacionGanadora" visibility="public" method="_4VBR8J8zEe6a8eZwrQ2Tww">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_4VAq4J8zEe6a8eZwrQ2Tww" type="_0e-0gJ8zEe6a8eZwrQ2Tww" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_4VB5AJ8zEe6a8eZwrQ2Tww" name="getGanadores" visibility="public" method="_4VEVQJ8zEe6a8eZwrQ2Tww">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_4VDHIJ8zEe6a8eZwrQ2Tww" type="_4Uiw0J8zEe6a8eZwrQ2Tww" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4VDHIZ8zEe6a8eZwrQ2Tww"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4VDuMJ8zEe6a8eZwrQ2Tww" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_4VE8UJ8zEe6a8eZwrQ2Tww" name="toString" visibility="public" method="_4VGxgJ8zEe6a8eZwrQ2Tww">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_4VFjYJ8zEe6a8eZwrQ2Tww" type="_4Uz2kZ8zEe6a8eZwrQ2Tww" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_4Uiw0J8zEe6a8eZwrQ2Tww" name="Jugador" visibility="public">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_5ErNQJ8zEe6a8eZwrQ2Tww" name="NUM_TIRADAS" visibility="private" isLeaf="true" isStatic="true" type="_0e-0gJ8zEe6a8eZwrQ2Tww" isUnique="false">
+            <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_5Er0UJ8zEe6a8eZwrQ2Tww" name="defaultValue">
+              <language>JAVA</language>
+              <body>5</body>
+            </defaultValue>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_5EsbYJ8zEe6a8eZwrQ2Tww" name="puntuaciones" visibility="private" isLeaf="true" type="_0e-0gJ8zEe6a8eZwrQ2Tww" isUnique="false">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5EsbYZ8zEe6a8eZwrQ2Tww"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5EsbYp8zEe6a8eZwrQ2Tww" value="*"/>
+            <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_5EtCcJ8zEe6a8eZwrQ2Tww" name="defaultValue">
+              <language>JAVA</language>
+              <body>new int[NUM_TIRADAS]</body>
+            </defaultValue>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_5EtpgJ8zEe6a8eZwrQ2Tww" name="nombre" visibility="private" type="_4Uz2kZ8zEe6a8eZwrQ2Tww" isUnique="false"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5E1lUJ8zEe6a8eZwrQ2Tww" name="Jugador" specification="_5EuQkJ8zEe6a8eZwrQ2Tww">
+            <language>JAVA</language>
+            <body>
+    setNombre(nombre);
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5E2zcJ8zEe6a8eZwrQ2Tww" name="getNombre" specification="_5E1lUZ8zEe6a8eZwrQ2Tww">
+            <language>JAVA</language>
+            <body>
+    return nombre;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5E4ooJ8zEe6a8eZwrQ2Tww" name="setNombre" specification="_5E3agJ8zEe6a8eZwrQ2Tww">
+            <language>JAVA</language>
+            <body>
+    Objects.requireNonNull(nombre, &quot;El nombre de un jugador no puede ser nulo.&quot;);
+    if (nombre.isBlank()) {
+        throw new IllegalArgumentException(&quot;El nombre de un jugador no puede estar vacío.&quot;);
+    }
+    this.nombre = nombre;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5E5PsZ8zEe6a8eZwrQ2Tww" name="jugar" specification="_5E5PsJ8zEe6a8eZwrQ2Tww">
+            <language>JAVA</language>
+            <body>
+    for (int i = 0; i &lt; NUM_TIRADAS; i++) {
+        puntuaciones[i] = Dado.lanzar();
+    }
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5E7E4J8zEe6a8eZwrQ2Tww" name="getPuntuacionTotal" specification="_5E52wJ8zEe6a8eZwrQ2Tww">
+            <language>JAVA</language>
+            <body>
+    int puntuacionTotal = 0;
+    for (int puntuacion : puntuaciones) {
+        puntuacionTotal += puntuacion;
+    }
+    return puntuacionTotal;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5E8TAZ8zEe6a8eZwrQ2Tww" name="toString" specification="_5E7r8J8zEe6a8eZwrQ2Tww">
+            <language>JAVA</language>
+            <body>
+    return String.format(&quot;Jugador [nombre=%s, puntuaciones=%s, puntuación total=%d]&quot;, nombre, Arrays.toString(puntuaciones), getPuntuacionTotal());
+</body>
+          </ownedBehavior>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_5EuQkJ8zEe6a8eZwrQ2Tww" name="Jugador" visibility="public" method="_5E1lUJ8zEe6a8eZwrQ2Tww">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_5E0-QJ8zEe6a8eZwrQ2Tww" name="nombre" type="_4Uz2kZ8zEe6a8eZwrQ2Tww"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_5E1lUZ8zEe6a8eZwrQ2Tww" name="getNombre" visibility="public" method="_5E2zcJ8zEe6a8eZwrQ2Tww">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_5E2MYJ8zEe6a8eZwrQ2Tww" type="_4Uz2kZ8zEe6a8eZwrQ2Tww" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_5E3agJ8zEe6a8eZwrQ2Tww" name="setNombre" visibility="private" method="_5E4ooJ8zEe6a8eZwrQ2Tww">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_5E4BkJ8zEe6a8eZwrQ2Tww" name="nombre" type="_4Uz2kZ8zEe6a8eZwrQ2Tww"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_5E5PsJ8zEe6a8eZwrQ2Tww" name="jugar" visibility="public" method="_5E5PsZ8zEe6a8eZwrQ2Tww"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_5E52wJ8zEe6a8eZwrQ2Tww" name="getPuntuacionTotal" visibility="public" method="_5E7E4J8zEe6a8eZwrQ2Tww">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_5E6d0J8zEe6a8eZwrQ2Tww" type="_0e-0gJ8zEe6a8eZwrQ2Tww" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_5E7r8J8zEe6a8eZwrQ2Tww" name="toString" visibility="public" method="_5E8TAZ8zEe6a8eZwrQ2Tww">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_5E8TAJ8zEe6a8eZwrQ2Tww" type="_4Uz2kZ8zEe6a8eZwrQ2Tww" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_vPjs0J80Ee6a8eZwrQ2Tww" name="A_jugadores_juegoDados" memberEnd="_4Uo3cJ8zEe6a8eZwrQ2Tww _vPmwIJ80Ee6a8eZwrQ2Tww">
+          <ownedEnd xmi:type="uml:Property" xmi:id="_vPmwIJ80Ee6a8eZwrQ2Tww" name="juegoDados" type="_4UftgJ8zEe6a8eZwrQ2Tww" association="_vPjs0J80Ee6a8eZwrQ2Tww">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vPnXMJ80Ee6a8eZwrQ2Tww"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vPn-QJ80Ee6a8eZwrQ2Tww" value="1"/>
+          </ownedEnd>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_LG-8IJ80Ee6a8eZwrQ2Tww" name="vista">
+        <packagedElement xmi:type="uml:Class" xmi:id="_Iju8QJ80Ee6a8eZwrQ2Tww" name="Consola" visibility="public">
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ij0b0J80Ee6a8eZwrQ2Tww" name="Consola" specification="_Iju8QZ80Ee6a8eZwrQ2Tww">
+            <language>JAVA</language>
+            <body>
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ij1p8J80Ee6a8eZwrQ2Tww" name="leerNumeroJugadores" specification="_Ij1C4J80Ee6a8eZwrQ2Tww">
+            <language>JAVA</language>
+            <body>
+    System.out.print(&quot;Introduce el número de jugadores: &quot;);
+    return Entrada.entero();
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ij4GMJ80Ee6a8eZwrQ2Tww" name="leerNombreJugador" specification="_Ij2RAJ80Ee6a8eZwrQ2Tww">
+            <language>JAVA</language>
+            <body>
+    String nombre;
+    do {
+        System.out.printf(&quot;Introduce el nombre del jugador %d: &quot;, numeroJugador);
+        nombre = Entrada.cadena();
+    } while (nombre.isBlank());
+    return nombre;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_IkDFUJ80Ee6a8eZwrQ2Tww" name="mostrarResultados" specification="_IkB3MJ80Ee6a8eZwrQ2Tww">
+            <language>JAVA</language>
+            <body>
+    StringBuilder resultados = new StringBuilder(&quot;Resultados del juego.\n&quot;);
+    resultados.append(&quot;---------------------\n&quot;);
+    resultados.append(String.format(&quot;Puntuación de los jugadores: %n&quot;));
+    resultados.append(juegoDados);
+    resultados.append(String.format(&quot;Puntuación máxima: %d%n&quot;, juegoDados.getPuntuacionGanadora()));
+    StringBuilder ganadores = new StringBuilder();
+    for (Jugador ganador : juegoDados.getGanadores()) {
+        if (ganador != null) {
+            if (!ganadores.isEmpty()) {
+                ganadores.append(&quot;, &quot;);
+            }
+            ganadores.append(ganador.getNombre());
+        }
+    }
+    resultados.append(String.format(&quot;Ganadores: %s&quot;, ganadores));
+    System.out.println(resultados);
+</body>
+          </ownedBehavior>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_Iju8QZ80Ee6a8eZwrQ2Tww" name="Consola" visibility="private" method="_Ij0b0J80Ee6a8eZwrQ2Tww"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_Ij1C4J80Ee6a8eZwrQ2Tww" name="leerNumeroJugadores" visibility="public" isStatic="true" method="_Ij1p8J80Ee6a8eZwrQ2Tww">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_Ij1C4Z80Ee6a8eZwrQ2Tww" type="_0e-0gJ8zEe6a8eZwrQ2Tww" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_Ij2RAJ80Ee6a8eZwrQ2Tww" name="leerNombreJugador" visibility="public" isStatic="true" method="_Ij4GMJ80Ee6a8eZwrQ2Tww">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_Ij24EJ80Ee6a8eZwrQ2Tww" type="_4Uz2kZ8zEe6a8eZwrQ2Tww" direction="return"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_Ij3fIJ80Ee6a8eZwrQ2Tww" name="numeroJugador" type="_0e-0gJ8zEe6a8eZwrQ2Tww"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_IkB3MJ80Ee6a8eZwrQ2Tww" name="mostrarResultados" visibility="public" isStatic="true" method="_IkDFUJ80Ee6a8eZwrQ2Tww">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_IkCeQJ80Ee6a8eZwrQ2Tww" name="juegoDados" type="_Ij9lwJ80Ee6a8eZwrQ2Tww"/>
+          </ownedOperation>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Pwh6IJ80Ee6a8eZwrQ2Tww" name="Main" visibility="public">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Pwk9cJ80Ee6a8eZwrQ2Tww" name="main" specification="_PwjIQJ80Ee6a8eZwrQ2Tww">
+          <language>JAVA</language>
+          <body>
+    int numeroJugadores = 0;
+    JuegoDados juegoDados = null;
+    System.out.printf(&quot;Juego de dados.%n---------------%n%n&quot;);
+    do {
+        try {
+            numeroJugadores = Consola.leerNumeroJugadores();
+            juegoDados = crearJuego(numeroJugadores);
+        } catch (IllegalArgumentException e) {
+            System.out.printf(&quot;ERROR: %s%n&quot;, e.getMessage());
+        }
+    } while (juegoDados == null);
+    crearJugadores(numeroJugadores, juegoDados);
+    juegoDados.jugar();
+    Consola.mostrarResultados(juegoDados);
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PwoAwJ80Ee6a8eZwrQ2Tww" name="crearJuego" specification="_PwmLkJ80Ee6a8eZwrQ2Tww">
+          <language>JAVA</language>
+          <body>
+    return new JuegoDados(numeroJugadores);
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PwqdAZ80Ee6a8eZwrQ2Tww" name="crearJugadores" specification="_PwpO4J80Ee6a8eZwrQ2Tww">
+          <language>JAVA</language>
+          <body>
+    for (int i = 0; i &lt; numeroJugadores; i++) {
+        String nombre = Consola.leerNombreJugador(i + 1);
+        juegoDados.setJugador(i, nombre);
+    }
+</body>
+        </ownedBehavior>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_PwjIQJ80Ee6a8eZwrQ2Tww" name="main" visibility="public" isStatic="true" method="_Pwk9cJ80Ee6a8eZwrQ2Tww">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_PwjvUJ80Ee6a8eZwrQ2Tww" name="args" type="_4Uz2kZ8zEe6a8eZwrQ2Tww">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PwkWYJ80Ee6a8eZwrQ2Tww"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PwkWYZ80Ee6a8eZwrQ2Tww" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_PwmLkJ80Ee6a8eZwrQ2Tww" name="crearJuego" visibility="private" isStatic="true" method="_PwoAwJ80Ee6a8eZwrQ2Tww">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_PwmyoJ80Ee6a8eZwrQ2Tww" type="_Ij9lwJ80Ee6a8eZwrQ2Tww" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_PwnZsJ80Ee6a8eZwrQ2Tww" name="numeroJugadores" type="_0e-0gJ8zEe6a8eZwrQ2Tww"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_PwpO4J80Ee6a8eZwrQ2Tww" name="crearJugadores" visibility="private" isStatic="true" method="_PwqdAZ80Ee6a8eZwrQ2Tww">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_PwpO4Z80Ee6a8eZwrQ2Tww" name="numeroJugadores" type="_0e-0gJ8zEe6a8eZwrQ2Tww"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_PwqdAJ80Ee6a8eZwrQ2Tww" name="juegoDados" type="_Ij9lwJ80Ee6a8eZwrQ2Tww"/>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xoVXgJ8zEe6a8eZwrQ2Tww">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xoZo8J8zEe6a8eZwrQ2Tww" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/PapyrusJava/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PapyrusJava_PROFILES/PapyrusJava.profile.uml#_j9REUByGEduN1bTiWJ0lyw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_0d2zIJ8zEe6a8eZwrQ2Tww">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0d3aMJ8zEe6a8eZwrQ2Tww" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/Codegen/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Codegen_PROFILES/Codegen.profile.uml#_fPDsIBa-EearhdjjJ6cVzQ"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_0eByQJ8zEe6a8eZwrQ2Tww">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0eCZUJ8zEe6a8eZwrQ2Tww" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Codegen:External xmi:id="_0i8ugJ8zEe6a8eZwrQ2Tww" name="java.util.Random" base_Classifier="_0fGwUJ8zEe6a8eZwrQ2Tww"/>
+  <standard:Create xmi:id="_0jN0QJ8zEe6a8eZwrQ2Tww" base_BehavioralFeature="_0jHGkJ8zEe6a8eZwrQ2Tww"/>
+  <Codegen:External xmi:id="_4UnCQJ8zEe6a8eZwrQ2Tww" name="Jugador" base_Classifier="_4Uiw0J8zEe6a8eZwrQ2Tww"/>
+  <standard:Create xmi:id="_4Uu-EJ8zEe6a8eZwrQ2Tww" base_BehavioralFeature="_4UqsoJ8zEe6a8eZwrQ2Tww"/>
+  <Codegen:External xmi:id="_4U4vEJ8zEe6a8eZwrQ2Tww" name="java.lang.String" base_Classifier="_4Uz2kZ8zEe6a8eZwrQ2Tww"/>
+  <standard:Create xmi:id="_5EzJEJ8zEe6a8eZwrQ2Tww" base_BehavioralFeature="_5EuQkJ8zEe6a8eZwrQ2Tww"/>
+  <standard:Create xmi:id="_IjzNsJ80Ee6a8eZwrQ2Tww" base_BehavioralFeature="_Iju8QZ80Ee6a8eZwrQ2Tww"/>
+  <Codegen:External xmi:id="_IkBQIJ80Ee6a8eZwrQ2Tww" name="org.iesalandalus.programacion.juegodados.modelo.JuegoDados" base_Classifier="_Ij9lwJ80Ee6a8eZwrQ2Tww"/>
+</xmi:XMI>
