@@ -46,6 +46,7 @@ public class JuegoDados {
 	}
 
 	public int getPuntuacionGanadora() {
+		comprobarJugadores();
 		int puntuacionMaxima = 0;
 		for (Jugador jugador : jugadores) {
 			int puntuacionJugador = jugador.getPuntuacionTotal();
@@ -57,6 +58,7 @@ public class JuegoDados {
 	}
 	
 	public Jugador[] getGanadores() {
+		comprobarJugadores();
 		Jugador[] ganadores = new Jugador[jugadores.length];
 		int puntuacionGanadora = getPuntuacionGanadora();
 		int indiceGanadores = 0;

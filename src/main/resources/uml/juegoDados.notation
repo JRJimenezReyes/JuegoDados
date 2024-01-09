@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:css="http://www.eclipse.org/papyrus/infra/gmfdiag/css" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
   <notation:Diagram xmi:id="_xmvcEJ8zEe6a8eZwrQ2Tww" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
-    <children xmi:type="notation:Shape" xmi:id="_5IbE058zEe6a8eZwrQ2Tww" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_5IbE1J8zEe6a8eZwrQ2Tww"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_5IbE1p8zEe6a8eZwrQ2Tww" name="BASE_ELEMENT">
-        <eObjectValue xmi:type="uml:Class" href="juegoDados.uml#_4Uiw0J8zEe6a8eZwrQ2Tww"/>
-      </styles>
-      <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5IbE1Z8zEe6a8eZwrQ2Tww" x="994" y="214"/>
-    </children>
     <children xmi:type="notation:Shape" xmi:id="_QkZAAJ80Ee6a8eZwrQ2Tww" type="Package_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_QkZnEJ80Ee6a8eZwrQ2Tww" type="Package_NameLabel"/>
       <children xmi:type="notation:BasicCompartment" xmi:id="_QkZnEZ80Ee6a8eZwrQ2Tww" type="Package_PackagedElementCompartment">
@@ -145,6 +137,15 @@
                   <layoutConstraint xmi:type="notation:Location" xmi:id="__k-4kZ8zEe6a8eZwrQ2Tww"/>
                 </children>
                 <children xmi:type="notation:Shape" xmi:id="__k_foJ8zEe6a8eZwrQ2Tww" type="Operation_ClassOperationLabel">
+                  <styles xmi:type="notation:StringListValueStyle" xmi:id="_yOn-IK8bEe603OQN4NIpSw" name="maskLabel">
+                    <stringListValue>parametersName</stringListValue>
+                    <stringListValue>parametersDirection</stringListValue>
+                    <stringListValue>visibility</stringListValue>
+                    <stringListValue>name</stringListValue>
+                    <stringListValue>returnMultiplicity</stringListValue>
+                    <stringListValue>parametersType</stringListValue>
+                    <stringListValue>returnType</stringListValue>
+                  </styles>
                   <element xmi:type="uml:Operation" href="juegoDados.uml#_4VB5AJ8zEe6a8eZwrQ2Tww"/>
                   <layoutConstraint xmi:type="notation:Location" xmi:id="__k_foZ8zEe6a8eZwrQ2Tww"/>
                 </children>
@@ -248,6 +249,14 @@
               </children>
               <element xmi:type="uml:Class" href="juegoDados.uml#_4Uiw0J8zEe6a8eZwrQ2Tww"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5E9hIZ8zEe6a8eZwrQ2Tww" x="294" y="48"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_vDZ_UK8bEe603OQN4NIpSw" type="StereotypeComment">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_vDZ_Ua8bEe603OQN4NIpSw"/>
+              <styles xmi:type="notation:EObjectValueStyle" xmi:id="_vDZ_U68bEe603OQN4NIpSw" name="BASE_ELEMENT">
+                <eObjectValue xmi:type="uml:Class" href="juegoDados.uml#_4Uiw0J8zEe6a8eZwrQ2Tww"/>
+              </styles>
+              <element xsi:nil="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vDZ_Uq8bEe603OQN4NIpSw" x="494" y="48"/>
             </children>
             <styles xmi:type="notation:TitleStyle" xmi:id="_D27O5J80Ee6a8eZwrQ2Tww"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D27O5Z80Ee6a8eZwrQ2Tww"/>
@@ -393,16 +402,6 @@
     </styles>
     <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_8I1h0J8zEe6a8eZwrQ2Tww" name="css_stylesheets" eObjectListValue="_8I2I4J8zEe6a8eZwrQ2Tww"/>
     <element xmi:type="uml:Model" href="juegoDados.uml#_xl5HgJ8zEe6a8eZwrQ2Tww"/>
-    <edges xmi:type="notation:Connector" xmi:id="_5IbE158zEe6a8eZwrQ2Tww" type="StereotypeCommentLink" source="_5E9hIJ8zEe6a8eZwrQ2Tww" target="_5IbE058zEe6a8eZwrQ2Tww">
-      <styles xmi:type="notation:FontStyle" xmi:id="_5IbE2J8zEe6a8eZwrQ2Tww"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_5Ibr4J8zEe6a8eZwrQ2Tww" name="BASE_ELEMENT">
-        <eObjectValue xmi:type="uml:Class" href="juegoDados.uml#_4Uiw0J8zEe6a8eZwrQ2Tww"/>
-      </styles>
-      <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5IbE2Z8zEe6a8eZwrQ2Tww" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5IbE2p8zEe6a8eZwrQ2Tww"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5IbE258zEe6a8eZwrQ2Tww"/>
-    </edges>
     <edges xmi:type="notation:Connector" xmi:id="_wPBlwJ80Ee6a8eZwrQ2Tww" type="Association_Edge" source="_4VHYkJ8zEe6a8eZwrQ2Tww" target="_5E9hIJ8zEe6a8eZwrQ2Tww">
       <children xmi:type="notation:DecorationNode" xmi:id="_wPBlw580Ee6a8eZwrQ2Tww" type="Association_StereotypeLabel">
         <styles xmi:type="notation:BooleanValueStyle" xmi:id="_5RedsJ80Ee6a8eZwrQ2Tww" name="IS_UPDATED_POSITION" booleanValue="true"/>
@@ -433,6 +432,16 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wPBlwp80Ee6a8eZwrQ2Tww" points="[890, 519, -643984, -643984]$[729, 512, -643984, -643984]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5TzY8J80Ee6a8eZwrQ2Tww" id="(0.0,0.47619047619047616)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5T0AAJ80Ee6a8eZwrQ2Tww" id="(1.0,0.4724770642201835)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_vDZ_VK8bEe603OQN4NIpSw" type="StereotypeCommentLink" source="_5E9hIJ8zEe6a8eZwrQ2Tww" target="_vDZ_UK8bEe603OQN4NIpSw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_vDamYK8bEe603OQN4NIpSw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_vDamZK8bEe603OQN4NIpSw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="juegoDados.uml#_4Uiw0J8zEe6a8eZwrQ2Tww"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vDamYa8bEe603OQN4NIpSw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vDamYq8bEe603OQN4NIpSw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vDamY68bEe603OQN4NIpSw"/>
     </edges>
   </notation:Diagram>
   <css:StyleSheetReference xmi:id="_8I2I4J8zEe6a8eZwrQ2Tww" path="/JuegoDados/src/main/resources/uml/MiEstilo.css"/>
